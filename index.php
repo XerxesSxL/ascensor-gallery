@@ -21,7 +21,7 @@
 		<title>ascensor gallery</title>
 		<meta name="viewport" content="user-scalable=0, width=640" />
 		<link rel="stylesheet" type="text/css" media="all" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/themes/start/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/start/jquery-ui.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" />
 		<link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,700,300italic,400italic,700italic" />
 		<link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Allerta+Stencil" />
@@ -49,10 +49,10 @@
 		<div class="footer" id="footer">
 			&copy; <?php if( date( "Y" ) == 2013 ) { echo date( "Y" ); } else { echo "2013 - " . date( "Y" ); } ?> red brick shack
 		</div>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="js/jquery.ascensor.custom.js"></script>
+		<script type="text/javascript" src="js/jquery.ascensor.min.js"></script>
 		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 		<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 		<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>

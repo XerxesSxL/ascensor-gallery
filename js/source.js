@@ -58,17 +58,14 @@
 		ascensor_down: "ascensorDown"
 */
 
-$(document).ready(function() {
-	ascensor_gallery.set_loading();
-	$(".ascensor-gallery-loading").css({backgroundSize: "cover"});
-});
-
 var ascensor_gallery_options = {
 	target: "container",
 	rows: 5,
 	image_tooltips: true
 }
 
-$(window).load(function() {
+$(document).ready(function() {
 	ascensor_gallery.init(ascensor_gallery_options);
+	ascensor_gallery.set_loading();
+	$(".ascensor-gallery-loading").css({backgroundSize: "cover"});
 });

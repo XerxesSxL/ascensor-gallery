@@ -23,8 +23,8 @@
 		Backwards compatible to IE7, your mileage may vary on custom stylings
 	
 	REQUIRES:
-		jQuery (duh): //ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
-		jQuery UI: //ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js
+		jQuery (duh): //ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
+		jQuery UI: //ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js
 		Ascensor (duh): http://kirkas.ch/ascensor/
 			- we have a custom rolled version of this plugin, with custom code at line 169
 		Easing: http://gsgd.co.uk/sandbox/jquery/easing/
