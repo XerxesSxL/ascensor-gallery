@@ -1,0 +1,185 @@
+/* CSS Document */
+
+/* UTILITY */
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.clear {
+	clear:both;
+}
+
+.hide {
+	display:none;
+}
+
+/* MAIN */
+
+body {
+	font-family:"Lato", Arial, Helvetica, sans-serif;
+	font-size:.75em;
+	color:#333;
+	overflow:hidden;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family:"Josefin Slab", "Times New Roman", Times, serif;
+	font-weight:normal;
+	color:#C30;
+	margin:15px;
+}
+
+h1 {
+	font-family:"Allerta Stencil", Arial, Helvetica, sans-serif;
+	font-size:7em;
+	text-transform:uppercase;
+	margin-top:25px;
+	margin-left:9px;
+	display:inline-block;
+}
+
+h1 .smaller {
+	font-size:.5em;
+}
+
+h2 {
+	font-size:1.5em;
+}
+
+p {
+	line-height:1.25;
+	margin:15px;
+}
+
+a {
+	cursor:pointer;
+	text-decoration:none;
+}
+
+/* LAYOUT */
+
+.header {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:99999;
+}
+
+.header-inner {
+	width:75%;
+	margin:0 auto;
+}
+
+.container {
+	overflow:hidden;
+}
+
+.footer {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	text-align:right;
+	font-size:1em;
+	color:#C30;
+	padding:5px 15px;
+	background-color:#fff;
+	zoom:1;
+	filter:alpha(opacity=75);
+	opacity:.75;
+	z-index:100;
+}
+
+/* JQUERY UI OVERRIDES */
+
+.ui-tooltip {
+	font-size:8px;
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	color:#C30;
+	box-shadow:0 0 5px #C30;
+	-moz-box-shadow:0 0 5px #C30;
+	-webkit-box-shadow:0 0 5px #C30;
+	border:solid 1px #C30 !important;
+	zoom:1;
+	filter:alpha(opacity=75);
+	opacity:.75;
+	z-index:99999999;
+}
+
+/* JSCROLLPANE OVERRIDES */
+
+.jspVerticalBar {
+	width:5px;
+}
+
+.jspTrack {
+	background-color:#fff;
+}
+
+.jspDrag {
+	background-color:#C30;
+}
+
+/* ASCENSOR GALLERY OVERRIDES */
+
+.ascensor-gallery-loading {
+	background:url(team.jpg) top left no-repeat #fff;
+	background-size:cover;
+}
+
+.ascensor-gallery-loading-instructions {
+	background-color:#fff;
+	color:#C30;
+	width:100%;
+	text-align:center;
+	padding:5px 0 6px 0;
+	bottom:35%;
+	font-size:1.5em;
+}
+
+#ascensor-gallery-navigation {
+	top:25px;
+	right:40px;
+}
+
+#ascensor-gallery-navigation a {
+	background-color:#eee;
+}
+
+#ascensor-gallery-navigation a:hover, #ascensor-gallery-navigation .ascensorLinkActive {
+	background-color:#C30;
+}
+
+.ascensor-gallery-image-overlay {
+	bottom:70px;
+	right:50px;
+	width:250px;
+	height:200px;
+	background-color:#fff;
+	zoom:1;
+	filter:alpha(opacity=85);
+	opacity:.85;
+}
+
+.ascensor-gallery-image-overlay-toggle {
+	width:50px;
+	height:47px;
+	padding-top:10px;
+	background-color:#fff;
+	zoom:1;
+	filter:alpha(opacity=50);
+	opacity:.50;
+	text-align:center;
+	font-size:2em;
+	cursor:pointer;
+	bottom:70px;
+	right:50px;
+}
