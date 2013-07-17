@@ -5,7 +5,17 @@ jQuery Ascensor based full screen photo gallery.<br />
 Primarily based on jQuery Ascensor (http://kirkas.ch/ascensor/); all thanks to them!<br />
 There's a bunch of other jQuery libraries that are included.<br />
 All this plugin really does is centralize a whole lot of other plugin functionalities into one.<br />
-It also includes my preferred CSS reset.<br />
+It also includes my preferred CSS reset.
+
+FEATURES:
+=========
+* Ascensor based full screen gallery
+* Custom overlays for each gallery
+* Support for touch interface
+* Support for swipe based interface
+* jScrollPane for overlay content
+* "Responsive"
+* Backwards compatible to IE7, your mileage may vary on custom stylings
 
 DEMO:
 =====
